@@ -4,7 +4,7 @@ export function Index() {
   return (
     <>
       <Header>Header</Header>
-      <p>test</p>
+      <p>contact</p>
       <Footer>Footer</Footer>
     </>
   );
