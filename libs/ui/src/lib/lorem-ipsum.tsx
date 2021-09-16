@@ -1,6 +1,6 @@
-export function LoremIpsum2() {
+export function LoremIpsum() {
   return (
-    <div className="lorem-ipsum-2">
+    <div className="lorem-ipsum">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor
         augue at leo tincidunt vestibulum. Ut et finibus nisi. Nam euismod
@@ -800,4 +800,4 @@ export function LoremIpsum2() {
   );
 }
 
-export default LoremIpsum2;
+export default LoremIpsum;

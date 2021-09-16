@@ -1,17 +1,13 @@
-// Try uncommenting LoremIpsum2 and see how it impacts bundle size.
-import {
-  Header,
-  Footer,
-  LoremIpsum,
-  // LoremIpsum2
-} from '@nx-next/ui';
+import { Header } from '@nx-next/ui/lib/header';
+import { Footer } from '@nx-next/ui/lib/footer';
+
+import { LoremIpsum } from '@nx-next/ui/lib/lorem-ipsum';
 
 export function Index() {
   return (
     <>
       <Header>Header</Header>
       <LoremIpsum />
-      {/* <LoremIpsum2 /> */}
       <Footer>Footer</Footer>
     </>
   );
