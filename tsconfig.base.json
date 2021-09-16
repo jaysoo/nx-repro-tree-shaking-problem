@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-next/ui": ["libs/ui/src/index.ts"]
+      "@nx-next/ui": ["libs/ui/src/index.ts"],
+      "@nx-next/ui/*": ["libs/ui/src/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]

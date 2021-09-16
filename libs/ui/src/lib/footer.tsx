@@ -1,5 +1,3 @@
-import './footer.module.css';
-
 /* eslint-disable-next-line */
 export interface FooterProps {
   children: any;

@@ -1,5 +1,3 @@
-import './header.module.css';
-
 export interface HeaderProps {
   children: any;
 }
